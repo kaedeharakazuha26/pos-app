@@ -1,0 +1,1 @@
+export { AllowancesPage } from './AllowancesPage'

@@ -1,0 +1,61 @@
+:root {
+  --bg: #0b0d10;
+  --panel: #14181d;
+  --panel-alt: #191f27;
+  --text-primary: #f5f5f4;
+  --text-muted: #a1a1aa;
+  --border: rgba(214, 170, 79, 0.22);
+  --accent: #d5af54;
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.18);
+  font-family: Inter, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--text-primary);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root[data-theme='light'] {
+  --bg: #f5f4f1;
+  --panel: #ffffff;
+  --panel-alt: #f7f5ef;
+  --text-primary: #171717;
+  --text-muted: #5f6368;
+  --border: rgba(17, 17, 17, 0.08);
+  --accent: #b98e2d;
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+  background: var(--bg);
+  color: var(--text-primary);
+}
+
+body {
+  min-height: 100vh;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+h1, h2, h3, h4, p {
+  margin-top: 0;
+}
+
+button {
+  font-family: inherit;
+}
