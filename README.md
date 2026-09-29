@@ -1133,3 +1133,8 @@ The system is designed around a reliable local-first workflow using **SQLite**, 
 Core POS, financial management, inventory, reporting, role permissions, End-of-Day processing, PDF reporting, and Electron USB printing functionality have been implemented and integrated.
 
 The application has been validated through development/build testing, including the Electron USB printer fix and rebuilt desktop packages.
+
+npm run build
+npm run lint
+npx cap sync @capawesome/capacitor-electron
+npx cap open @capawesome/capacitor-electron
